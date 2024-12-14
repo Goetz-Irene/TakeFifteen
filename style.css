@@ -1,0 +1,77 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('images/header-image.jpg'); /* Update the image path as needed */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Adjust the height based on your preference */
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Priorities Section */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Heading Styles */
+h2, h3 {
+    font-family: Georgia, serif;
+    color: #4CAF50;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Additional Styling for Lists */
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
